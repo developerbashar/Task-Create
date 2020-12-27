@@ -1,0 +1,44 @@
+.single-task-field {
+    background: rgb(139, 90, 85);
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 80px;
+    position: relative;
+    box-shadow: 1px 1px 8px -2px rgba(0,0,5.8);
+}
+.control-pannel {
+    background: #292020;
+    width: 100%;
+    height: 31px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+.color-round{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.color-box {
+    position: relative;
+    place-items: center;
+}
+.icon {
+    position: relative;
+    place-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.inner-textarea{
+    resize: none;
+    position: absolute;
+    background: #ddd;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    padding: 5px;
+}
